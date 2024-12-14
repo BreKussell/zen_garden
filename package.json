@@ -1,5 +1,5 @@
 {
-  "name": "css_zen_garden",
+  "name": "zen_garden",
   "version": "1.0.0",
   "description": "zen garden for WDD 331R",
   "main": "index.js",
@@ -13,5 +13,7 @@
   "dependencies": {
     "sass": "^1.77.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }
