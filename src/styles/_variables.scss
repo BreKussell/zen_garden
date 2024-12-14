@@ -1,0 +1,45 @@
+@use "sass:map";
+
+@font-face {
+    font-family: "Dancing Script"; /* Cursive font for headings */
+    src: url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+}
+@font-face {
+    font-family: "Times New Roman"; /* Standard serif font for paragraphs and links */
+    src: local("Times New Roman");
+}
+
+/********************************************************************
+ * Colors
+ *******************************************************************/
+$Rosewood: #A15465;
+$PowderBlue: #91AEBD;
+$DeepLavender: #62488F;
+$MidnightNavy: #24354C;
+$DarkSlateBlue: #20273F;
+$BackgroundBone: #E6DDCC;
+
+/********************************************************************
+ * Fonts
+ *******************************************************************/
+$header-font: "Dancing Script";
+$body-font: "Times New Roman";
+
+/********************************************************************
+ * Gradients and Animations
+ *******************************************************************/
+$page-gradient: radial-gradient(ellipse at top, $DarkSlateBlue, $DeepLavender, $Rosewood, $PowderBlue, $MidnightNavy);
+$drop-shadow-color1: #F1CA79;
+$drop-shadow-color2: $Rosewood;
+
+/********************************************************************
+ * Spacing
+ *******************************************************************/
+$box-overlap: 50px;
+$box-gap: 50px;
+
+/********************************************************************
+ * Miscellaneous
+ *******************************************************************/
+$hyperlink: $PowderBlue;
+$hyperlink-hover: $Rosewood;

@@ -1,0 +1,48 @@
+@use 'variables';
+
+/********************************************************************
+ * Components
+ *******************************************************************/
+.benefits, .explanation, .preamble {
+    background-color: variables.$PowderBlue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.participation, footer {
+    background-color: variables.$DeepLavender;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.requirements, .design-selection, .design-archives, .zen-resources {
+    background-color: variables.$Rosewood;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/********************************************************************
+ * Header
+ *******************************************************************/
+header {
+    background-color: variables.$DeepLavender;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1, header h2 {
+    text-align: right;
+    font-family: variables.$header-font;
+}
+
+/********************************************************************
+ * Footer
+ *******************************************************************/
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    a {
+        padding: 15px 20px;
+    }
+}
